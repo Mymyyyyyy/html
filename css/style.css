@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+
+}
+body{
+    background-color: black;
+    color: darksalmon;
+}
+#container{
+    background-color: black;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: auto;
+}
+img{
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+   
+}
+
+a{
+    color: darksalmon;
+    font-size: large;
+}
+p{
+    text-align: center;
+}
+
+
+div::after{
+    content: "";
+    width: 300px;
+}
